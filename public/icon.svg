@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Swasthya">
+  <rect width="64" height="64" rx="16" fill="#1f4d40"/>
+  <circle cx="32" cy="16" r="6" fill="#f7f3ec"/>
+  <path d="M32 22 v16 M24 30 h16 M26 50 l6-14 6 14" fill="none" stroke="#f7f3ec" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
