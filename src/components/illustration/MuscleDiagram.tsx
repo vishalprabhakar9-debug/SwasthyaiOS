@@ -40,7 +40,9 @@ export function MuscleDiagram({
                 rx={mark.rx}
                 ry={mark.ry}
                 fill="#9c4a32"
-                opacity="0.28"
+                fillOpacity="0.35"
+                stroke="#f7f3ec"
+                strokeWidth="2"
               />
             );
           })}
