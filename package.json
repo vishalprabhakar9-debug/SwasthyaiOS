@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "build:android": "CAPACITOR=1 next build && cap sync android",
+    "build:ios": "CAPACITOR=1 next build && cap sync ios",
     "android": "cap open android",
+    "ios": "cap open ios",
     "start": "next start",
     "lint": "eslint"
   },
@@ -15,6 +17,7 @@
     "@capacitor/android": "^8.6.0",
     "@capacitor/cli": "^8.6.0",
     "@capacitor/core": "^8.6.0",
+    "@capacitor/ios": "^8.6.0",
     "class-variance-authority": "^0.7.1",
     "cn": "^0.5.0",
     "framer-motion": "^14.7.1",
