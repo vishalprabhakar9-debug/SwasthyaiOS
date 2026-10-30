@@ -14,7 +14,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         Skip to content
       </a>
       <SiteHeader />
-      <main id="main" tabIndex={-1} className="flex-1 pb-24 outline-none lg:pb-0">
+      <main id="main" tabIndex={-1} className="flex-1 pb-[calc(6rem+env(safe-area-inset-bottom))] outline-none lg:pb-0">
         {children}
       </main>
       <SiteFooter />

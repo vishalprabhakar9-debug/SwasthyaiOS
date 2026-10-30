@@ -1,9 +1,11 @@
 import type { NextConfig } from "next";
 
+const android = process.env.CAPACITOR === "1";
+
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  ...(android
+    ? { output: "export", trailingSlash: true }
+    : { cacheComponents: true, partialPrefetching: true }),
   turbopack: {
     rules: {
       "*.css": {
